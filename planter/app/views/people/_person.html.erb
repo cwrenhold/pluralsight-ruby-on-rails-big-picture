@@ -9,4 +9,11 @@
     <%= person.name %>
   </p>
 
+  <p>
+    <strong>Plants:</strong>
+    <% @person.plants.each do |plant| %>
+    <%= plant.name%>
+    <% end%>
+  </p>
+
 </div>
