@@ -11,6 +11,12 @@
   </head>
 
   <body>
+    <nav>
+      <ul>
+        <li><%= link_to "People", people_path %></li>
+        <li><%= link_to "Plants", plant_path %></li>
+      </ul>
+    </nav>
     <%= yield %>
   </body>
 </html>
